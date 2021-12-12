@@ -1,0 +1,14 @@
+numpy==1.18.2
+#torch==1.6.0 
+#torchvision==0.7.0
+#torchaudio
+tensorboardX==2.0
+scikit_image==0.16.2
+matplotlib==2.2.3
+tqdm==4.43.0
+easydict==1.9
+Pillow==8.4.0
+scikit-image==0.16.2
+onnxconverter-common==1.6.0
+onnx==1.6.0
+onnxruntime
