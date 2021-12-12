@@ -11,6 +11,9 @@
 ```
 
 # Absract
+Yolov4 and Yolov4-tiny which can get good accuracy from training. 
+These model are base-body model for more high perfomanse model with custmized.
+It also can be converted as onnx.
 
 
 ## download weights
@@ -20,6 +23,9 @@
 - [yolov4 (Darknet)：yolov4.weights](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj74fGktd70AhVWk1YBHe9bDjMQFnoECAQQAQ&url=https%3A%2F%2Fgithub.com%2FAlexeyAB%2Fdarknet%2Freleases%2Fdownload%2Fdarknet_yolo_v3_optimal%2Fyolov4.weights&usg=AOvVaw30if4joxtTaS8DAh12vYQ4)
 - [yolov4-tiny (Darknet)：yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights)
 
+
+
+# Results
 
 # Note: cfg parameter when original class dataset training
 if num_class is 1, convolutional-filters is 18 (=```(5+num_class)*3```)
