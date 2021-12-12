@@ -21,7 +21,22 @@
 - [yolov4-tiny (Darknet)：yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights)
 
 
+# Note: cfg parameter when original class dataset training
+if num_class is 1, convolutional-filters is 18 (=```(5+num_class)*3```)
 
+```tiny-yolov4.cfg
+[convolutional]
+size=1
+stride=1
+pad=1
+filters=18
+activation=linear
+
+[yolo]
+mask = 3,4,5
+anchors = 10,14,  23,27,  37,58,  81,82,  135,169,  344,319
+classes=1
+```
 
 # References
 - [pytorch-YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4)
