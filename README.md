@@ -40,3 +40,5 @@ classes=1
 
 # References
 - [pytorch-YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4)
+- [OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit)
+- [Google Open Images Dataset V6 +](https://storage.googleapis.com/openimages/web/index.html)
