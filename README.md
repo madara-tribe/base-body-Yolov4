@@ -25,9 +25,27 @@ It also can be converted as onnx.
 - [yolov4 (Darknet)：yolov4.weights](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj74fGktd70AhVWk1YBHe9bDjMQFnoECAQQAQ&url=https%3A%2F%2Fgithub.com%2FAlexeyAB%2Fdarknet%2Freleases%2Fdownload%2Fdarknet_yolo_v3_optimal%2Fyolov4.weights&usg=AOvVaw30if4joxtTaS8DAh12vYQ4)
 - [yolov4-tiny (Darknet)：yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights)
 
-
+## data format
+you can sample download datset (google open image datasets) by [OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit)
+```
+# data format (data/train.txt)
+image_path1 x1,y1,x2,y2,id x1,y1,x2,y2,id x1,y1,x2,y2,id ...
+image_path2 x1,y1,x2,y2,id x1,y1,x2,y2,id x1,y1,x2,y2,id ...
+...
+```
 
 # Results
+After put trained weights to weights folder, you can train yolov4 and yolov4-tiny via Makefile. 
+```
+$ make yolorun
+$ make tinyrun
+```
+
+## yolov4 results
+
+
+## yolov4-tiny results
+
 
 # Note: cfg parameter when original class dataset training
 if num_class is 1, convolutional-filters is 18 (=```(5+num_class)*3```)
