@@ -1,6 +1,6 @@
-WEIGHT_PATH='Yolov4_epoch52.pth'
+WEIGHT_PATH='Yolov4_epoch116.pth'
 TINY_PATH='Yolov4_epoch75.pth'
-IMG='test1.jpg'
+IMG='test4.jpg'
 CLASSES=1
 BATCH_SIZE=1
 yolotorch2onnx:

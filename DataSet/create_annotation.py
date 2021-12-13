@@ -57,9 +57,10 @@ def main(save_filetxt_name, data_type, classes):
                 
 if __name__=='__main__':
     data_type = sys.argv[1]
-    classes = ['Knife']
+    classes = ['Coin']
     assert data_type in ['train', 'validation', 'test'], 'corecct word from [train, validation, test]'
     save_filetxt_name = os.path.join('../data', '{}.txt'.format(data_type))
     main(save_filetxt_name, data_type, classes)
     print('try to open')
     #open_txtfile(save_filetxt_name)
+

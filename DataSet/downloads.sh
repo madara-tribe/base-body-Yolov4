@@ -1,5 +1,5 @@
 # !/bin/sh
-CLASS=Knife
+CLASS=Coin
 TYPE=all # validation, train, test
 git clone https://github.com/EscVM/OIDv4_ToolKit.git
 cd OIDv4_ToolKit
