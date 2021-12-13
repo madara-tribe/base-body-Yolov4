@@ -26,7 +26,7 @@ It also can be converted as onnx.
 - [yolov4-tiny (Darknet)：yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights)
 
 ## data format
-you can sample download datset (google open image datasets) by [OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit)
+you can download sample datset (google open image datasets) by [OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit)
 ```
 # data format (data/train.txt)
 image_path1 x1,y1,x2,y2,id x1,y1,x2,y2,id x1,y1,x2,y2,id ...
@@ -35,7 +35,7 @@ image_path2 x1,y1,x2,y2,id x1,y1,x2,y2,id x1,y1,x2,y2,id ...
 ```
 
 # Results
-After put trained weights to weights folder, you can train yolov4 and yolov4-tiny via Makefile. 
+After put trained weights into weights folder, you can train yolov4 and yolov4-tiny via Makefile. 
 Yolov4 train is ```make yolorun```. Yolov4-tiny train is ```make tinyrun```.
 ```
 num class is 1 (Coin)
