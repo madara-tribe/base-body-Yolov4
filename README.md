@@ -37,9 +37,12 @@ image_path2 x1,y1,x2,y2,id x1,y1,x2,y2,id x1,y1,x2,y2,id ...
 # Results
 After put trained weights to weights folder, you can train yolov4 and yolov4-tiny via Makefile. 
 Yolov4 train is ```make yolorun```. Yolov4-tiny train is ```make tinyrun```.
-```train images : 1225
+```
+num class is 1 (Coin)
+train images : 1225
 validation images : 54
-test images : 152```
+test images : 152
+```
 
 ## yolov4 results
 
