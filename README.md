@@ -46,7 +46,7 @@ test images : 152
 
 ## yolov4 results
 
-<img src="https://user-images.githubusercontent.com/48679574/145761032-264e07fc-a5c5-4048-87ce-41c52dc97a74.png" width="800px">
+<img src="https://user-images.githubusercontent.com/48679574/145761032-264e07fc-a5c5-4048-87ce-41c52dc97a74.png" width="700px">
 
 
 ## yolov4-tiny results
