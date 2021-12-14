@@ -61,7 +61,7 @@ test images : 152
 # Note: cfg parameter when original class dataset training
 if num_class is 1, convolutional-filters is 18 (=```(5+num_class)*3```)
 
-```tiny-yolov4.cfg
+```cfg
 [convolutional]
 size=1
 stride=1
